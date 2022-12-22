@@ -71,6 +71,7 @@ a:where(:hover, :focus-visible) {
     left: 0;
     background: var(--purple-50);
     overflow: hidden;
+    z-index: -1;
 }
 
 .background span {
